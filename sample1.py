@@ -14,7 +14,7 @@ def get_links(html):
             output_list.append(link.attrs.get('href'))
     return output_list
 
-url = "https://www.wikihow.com/Stop-Clearing-Your-Throat"
+url = "https://www.wikihow.com"
 output_html = get_url(url)
 output_links = get_links(output_html)
 print(output_links)
